@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+@font-face {
+    font-family: "Bubbler";
+    src: url(../font/BubblerOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Grunge";
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+@font-face {
+    font-family: "Chilanka";
+    src: url(../font/Chilanka-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 0px;
+}
+
+/* HEADER */
+#inicio{
+    background-color: #000;
+    height: 100vh;
+}
+
+
+#titulos{
+    width: 100%;
+    height: 100vh;
+    vertical-align: top;
+    overflow: hidden;
+    background: url(../image/Arbol.jpg) no-repeat 30% 30%;
+    background-size: cover;
+    text-align: center;
+    font-weight: bolder;
+    padding: 25vh 100px;
+    color: #000000;
+}
+
+
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+    font-size:4.0rem;
+    letter-spacing: 1.5px;
+    text-align: center;
+    translate: 0 130px;
+    color: #ffffff;
+}
+
+
+#principal{
+    height: 100vh;
+}
+
+
+/* NAV */
+    nav{
+        position: sticky;
+        top: 100%;
+        width: 120%;
+        bottom: auto;
+        background-color: rgba(235, 235, 234, 0.1);
+        text-align: center;
+        translate: 0% 325%;
+        margin-left: -10%;
+        margin-bottom: -1.3%;
+        translate: 0 175px;
+    }
+
+
+        a{
+            font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+            font-size: 2.0rem;
+            color: #fff ;
+            display: inline-block;
+            letter-spacing: 2px;
+            text-decoration: none;
+            font-weight: bold;
+            width: 25%;
+        }
+
+
+        a:hover{
+            color: #0011ff;
+            font-size: 2.2rem;
+            font-weight: bolder;
+        }
+
+
+        .contenedor{
+            text-align: center;
+            padding: 30px;
+            margin-top: 15px;
+        }
+
+
+        .titulo1{
+            width: 20%;
+            font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+            text-align: center;
+            font-size: 3.0rem;
+            color: #000000;
+            margin-top: -6.5%;
+            margin-bottom: 20px;
+            margin: 0 auto;
+            translate: 0 -31px;
+        }
+
+
+        #casabambu{
+        width: 50%;
+        margin: 10px;
+        margin-top: 30px;
+        display: inline-block        
+         }
+
+
+        
+        .definicionbambu{
+            font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+            font-size: 1.2rem;
+            color: #000;
+            text-align: justify;
+            display: inline-block;
+            width: 42%;
+            margin-top: 30px;
+            margin: 20px;
+            translate: 0 50%;
+        }
+
+
+
+        .Informacion{
+            translate: 0 -200px;
+        }
+
+
+
+        .Informacion::first-letter{
+            font-size: 2.5rem;
+            float: left;
+            margin-right: 5px;
+            margin-top: -5px;
+        }
+
+        
+
+        .iconos{
+            text-align: center;
+            width: 100%;
+            padding: 30px;
+            top: 10px;
+        }
+
+
+
+        .logo1{
+            width: 33%;
+            color: #000;
+            font-size: 1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: inline-block;
+            margin: 0 auto;
+          
+            
+
+        }
+        .logo1 span{
+            font-size: 4rem;
+        }
+
+
+
+        .logo2{
+            width: 33%;
+            color: #000;
+            font-size: 1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+
+
+        .logo2 span{
+            font-size: 4rem;
+        }
+
+
+
+        .logo3{
+            width: 33%;
+            color: #000;
+            font-size: 1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+
+        
+        .logo3 span{
+            font-size: 4rem;
+        }
+
+
+
+        span{
+            color: #000000;
+            font-size: 8rem;
+            margin: 0 auto;
+            width: 33%;
+        }
+
+
+
+        .imagen{
+            background: url(../image/1.png) no-repeat fixed;
+            background-size: cover;
+            height: 100vh;
+            margin: 10px 10px;
+        }
+
+
+
+        .tituloContacto{
+            font-size: 5rem;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            text-align: center;
+            margin: 0 auto;
+            translate: 0 299%;
+        }
+
+
+
+        h4{
+            font-size: 5rem;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+
+
+        p{
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            text-align: center;
+            margin: 20px;
+            text-align: justify;
+        }
+
+
+
+        .Contenedor1{
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+         
+
+        #imagen{
+            width: 31.9%;
+            height: 250px;
+            margin: 10px;
+         }
+         
+         
+         #mapita{
+            margin-top: 20px;
+            width: 100%;
+            height: 350px;
+         }
+
+         #linea{
+            background-color: #fff;
+            width: 100%;
+            height: 20px;
+            padding: 2;
+            translate: 0 20px;
+        }
+
+         .cajita{
+            display:flex;
+            background-color: #45476f;
+            width: 100%;
+            height: 47vh;
+         }
+
+         
+         
+         .imagen2{
+             background: url(../image/fondito.jpg) no-repeat fixed;
+             background-size: cover;
+             height: 100vh;
+             margin: 20px 10px;
+             width: 100%;
+            }
+            
+            #rs a{
+               translate: 0 20px;
+                width: 55%;
+               font-family: Grunge, cursive;
+               padding-top: 40px;
+               color: #fff;
+               text-align: center;
+           }
+            
+            /*#tabla{
+                display: 5o%;
+                align-content: left;
+                font-size: 1rem;
+            font-family: Chilanka, cursive;
+            width: 50%;
+            margin: 0 auto;
+            translate: 0 -0px;
+            display: inline-block;
+            margin-top: 60px;
+            color: white;
+        }*/
+
+        #tabla{
+            
+            font-size: 1rem;
+            font-family: Chilanka, cursive;
+            width: 20%;
+            margin: 0 auto;
+            translate: 220px -0px;
+            display: inline-block;
+            margin-top: 60px;
+        }
+    
+        #tabla th{
+            color: #ffffff;
+            padding-left: 100px;
+            padding-bottom: 20px;
+            text-align: left;
+            
+        }
+    
+        #derechitos{
+            width: 19%;
+            font-size: 1rem;
+            color: #000;
+            font-family: 'Baloo Bhai', cursive;
+            display: inline-block;
+            translate: 1220px 340px;
+        }
+
+        #bambusito{
+            font-size: 2rem;
+            width: 5%;
+            color: #fff;
+            font-family: cursive;
+            translate: 1280px 100px;
+        }
+        
